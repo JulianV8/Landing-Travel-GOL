@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Travel GOL</title>
+</head>
+<body>
+    <nav></nav>
+    <div id="tab_bar"></div>
+    <section class="w-full h-screen">
+        <div id="home">
+            <div class="w-full h-3/4">
+                <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+                    <input class="outline-none p-3 rounded-full shadow-sm" placeholder="San Francisco" type="search">
+                    <button class="bg-white text-xl text-primary p-4 w-36 rounded-full shadow-sm">
+                        Explorar
+                    </button>
+                </div>
+                <div class="w-full h-full">
+                    <img src="./img/sanFrancisco.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="recomendadas" class="p-6">
+            <p class="text-3xl font-semibold text-primary">Recomendados</p>
+            <div class="w-auto h-72 items-center mt-4 overflow-x-auto overscroll-x-contain flex space-x-4">
+                <div id="card" class="Card">
+                    <div class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg text-white px-4 py-2">
+                        <p class="text-xl">Norway</p>
+                        <p class="text-base">Paisajes increibles</p>
+                    </div>
+                </div>
+                <div id="card" class="Card">
+                    <div class="w-full h-3/5 bg-new_york bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg text-terceary px-4 py-2">
+                        <p class="text-xl">New York</p>
+                        <p class="text-base">La gran manzana</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="rentas_destacadas"></div>
+    </section>
+</body>
+</html>

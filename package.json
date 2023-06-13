@@ -1,0 +1,17 @@
+{
+  "name": "travelgol",
+  "version": "1.0.0",
+  "description": "Landing page for Travelgol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "tailwind build src/css/tailwind.css -o public/css/tailwind.css --watch"
+  },
+  "author": "Julian Vasquez",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  }
+}
